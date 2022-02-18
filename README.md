@@ -21,7 +21,9 @@ precio con impuestos = precio sin impuestos * porcentaje de IVA
 precio con impuestos = precio con impuestos + precio sin impuestos
 ```
 poscondicion
+
 ...
+
 fin porcentajes_iva
 
 ## Ejercicio 8.2
@@ -43,7 +45,9 @@ fin porcentajes_iva
  capital con intereses = tasa de interes
 ```
 poscondicion
+
 ...
+
 fin inversiones
 
 ## Ejercicio 9.1
@@ -58,7 +62,7 @@ fin inversiones
 **variable**
    * suma: REAL  # una varible para almacenar la suma
    * media: REAL  # una variable para almacenar el resultado
-   * 
+   
 **realizacion**
 ```
 suma = numero1 + numero2
@@ -246,7 +250,7 @@ fin abrir
 #### **- Algoritmo abonar una cuenta**
 
 abonar(c : CUENTA ; crédito : REAL)
-   * Crédito `c' de la suma `crédito'.
+   * Crédito 'c' de la suma `crédito'.
 
 **Precondición**
    * c.saldo ≠ NULO
@@ -360,7 +364,7 @@ fin es_deudora
 #### **- Algoritmo abrir una cuenta con descubierto autorizado**
 
 abrir(c : CUENTA ; saldo_inicial : REAL ; descubierto_MAX : REAL)
-   * Inicializar `c' mediante un `saldo_inicial' y un 
+   * Inicializar 'c' mediante un `saldo_inicial' y un 
    * 'descubierto_MAX'.
 
 **Precondición**
